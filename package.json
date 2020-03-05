@@ -1,0 +1,17 @@
+{
+  "name": "assignment_task1",
+  "version": "1.0.0",
+  "description": "This is a sample tast given by the payever company ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha   TestTask1.js   --timeout 100000"
+  },
+  "author": "Radman Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^78.0.1",
+    "mocha": "^6.2.2",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
